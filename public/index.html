@@ -15,15 +15,19 @@
         <h2>Typer Game</h2>
         <p class="phrase">The Typer Game is a game created to check how many seconds the user has typed their words</p>
 
+        <!-- Count of words  -->
         <ul class="list-group align-items-center p-3">
-            <li class="list-group-item"> <span id="lenghtPhrase"></span> palavras</li>
-            <li class="list-group-item">5 segundos</li>
+            <li class="list-group-item"> <span id="lenghtPhrase">0</span> palavras</li>
+            <li class="list-group-item"> <span id="countCaracters"> 0 </span> caracteres</li>
+            <li class="list-group-item"><span id="digitationTime">3</span> segundos</li>
         </ul>
 
+        <!-- Box text -->
         <div class="mb-3">
             <label for="text-area" class="form-label">Digite o que quiser</label>
-            <textarea class="form-control" id="text-area" rows="4"></textarea>
+            <textarea class="form-control textArea" id="text-area" rows="4"></textarea>
         </div>
+
     </div>
 
     <script src="js/jquery.js"></script>
