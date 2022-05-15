@@ -29,6 +29,7 @@ function timeLeft() {
             if (timeLeft == 0) {
                 textArea.attr('disabled', 'disabled');
                 clearInterval(id);
+                textArea.addClass('text-area-disabled');
             }
         }, 1000);
     });
@@ -40,6 +41,7 @@ function restart() {
         $("#digitationTime").text(digitationTime);
         $("#countCaracters").text("0");
         $("#lenghtPhrase").text("0");
+        textArea.removeClass('text-area-disabled');
         timeLeft();
 }
 
