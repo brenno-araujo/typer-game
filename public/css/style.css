@@ -1,3 +1,11 @@
 .text-area-disabled {
   background-color: lightgray !important;
 }
+
+.text-area-correct {
+  background-color: lightgreen !important;
+}
+
+.text-area-incorrect {
+  background-color: lightcoral !important;
+}
